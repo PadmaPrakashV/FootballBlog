@@ -5,7 +5,8 @@ app = Flask(__name__)
 players = [
             {'name':'Cristiano Ronaldo','age':33,'position':'Attacker','country':'Portugal'},
             {'name':'Lionel Messi','age':32,'position':'Attacker','country':'Argentina'},
-            {'name':'Wayne Rooney','age':35,'position':'Attacker','country':'England'}
+            {'name':'Wayne Rooney','age':35,'position':'Attacker','country':'England'},
+            {'name':'Ruud van Nistelroy','age':35,'position':'Attacker','country':'Netherland'}
 ]
 
 @app.route("/")
