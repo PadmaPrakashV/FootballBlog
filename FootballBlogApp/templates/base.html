@@ -1,0 +1,13 @@
+<html>
+<head>
+    {% if title  %}
+        <title> Football blog - {{title}}  </title>
+    {% else  %}
+        <title> Football blog  </title>
+    {% endif %}
+</head>
+
+<body>
+    {% block content  %} {% endblock %}
+</body>
+</html>

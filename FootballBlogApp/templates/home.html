@@ -1,0 +1,12 @@
+{% extends 'base.html'  %}
+{%  block content  %}
+
+{% for player in players  %}
+
+    <h3> {{ player.name }}   </h3>
+    <h4> {{ player.age }}   </h4>
+    <h4> {{ player.country }}   </h4>
+
+{% endfor %}
+
+{% endblock content %}
